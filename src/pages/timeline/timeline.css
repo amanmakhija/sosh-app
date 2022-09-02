@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+}
+
+.leftSideBar {
+    flex: 1;
+}
+
+.timelinePosts {
+    margin: 10px;
+    flex: 3;
+}
+
+.timelineAds {
+    margin: 5px;
+    flex: 1;
+}

@@ -1,0 +1,30 @@
+.notiModelMain {
+    margin: 10px;
+    height: 80px;
+    display: flex;
+    cursor: pointer;
+}
+
+.notiModelMain:hover {
+    background-color: rgba(243, 216, 216, 0.363);
+}
+
+.notiModelAvatar {
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+.notiModelText {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.notiModelImgContainer {
+    margin-left: 670px;
+    margin-top: 10px;
+}
+
+.notiModelImg {
+    height: 60px;
+    width: 60px;
+}

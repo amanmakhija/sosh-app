@@ -1,0 +1,15 @@
+.frndNotiMain {
+    display: flex;
+}
+
+.frndNotiSide {
+    flex: 1;
+}
+
+.frndNotiCenter {
+    flex: 4;
+}
+
+.frndNotiAds {
+    flex: 1;
+}

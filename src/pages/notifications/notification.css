@@ -1,0 +1,30 @@
+.notiMain {
+    display: flex;
+}
+
+.notiSide {
+    flex: 1;
+}
+
+.notiCenter {
+    flex: 4;
+}
+
+.notiAds {
+    flex: 1;
+}
+
+.nullDiv {
+    position: relative;
+    display: block;
+    margin-left: 30%;
+    margin-top: 30%;
+}
+
+.null {
+    position: absolute;
+    top: 10%;
+    font-size: 60px;
+    color: rgb(224, 220, 220);
+    cursor: default;
+}
