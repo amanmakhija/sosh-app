@@ -2,6 +2,7 @@ import axios from "../../axios/axios";
 import { useRef } from "react";
 import "./register.css";
 import { useHistory } from "react-router";
+import { CircularProgress } from "@material-ui/core";
 
 export default function Register() {
   const username = useRef();
@@ -69,7 +70,11 @@ export default function Register() {
               type="password"
             />
             <button className="loginButton" type="submit">
-              Sign Up
+              {isFetching ? (
+                <CircularProgress color="white" size="20px" />
+              ) : (
+                "Sign Up"
+              )}
             </button>
           </form>
           <button onClick={() => history.push("/login")} className="loginRegisterButton">Log into Account</button>
