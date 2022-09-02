@@ -68,9 +68,7 @@ export default function Register() {
               className="loginInput"
               type="password"
             />
-            <button className="loginButton" type="submit">
-              Sign Up
-            </button>
+            <button className="loginButton" type="submit">Sign Up</button>
           </form>
           <button onClick={() => history.push("/login")} className="loginRegisterButton">Log into Account</button>
         </div>
