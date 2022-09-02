@@ -1,8 +1,9 @@
 import axios from "../../axios/axios";
-import { useRef } from "react";
+import { useContext, useRef } from "react";
 import "./register.css";
 import { useHistory } from "react-router";
 import { CircularProgress } from "@material-ui/core";
+import { AuthContext } from "../../context/AuthContext";
 
 export default function Register() {
   const username = useRef();
