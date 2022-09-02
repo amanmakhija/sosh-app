@@ -54,9 +54,7 @@ export default function Login() {
             </button>
             <span className="loginForgot">Forgot Password?</span>
           </form>
-          <button onClick={() => history.push("/register")} className="loginRegisterButton">
-            "Create a New Account"
-          </button>
+          <button onClick={() => history.push("/register")} className="loginRegisterButton">Create a New Account</button>
         </div>
       </div>
     </div>
